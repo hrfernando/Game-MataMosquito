@@ -63,11 +63,12 @@ body {
 
 
 @media screen and (max-width: 1160px) {
-    body {
+    body, html {
         background-image: url(../img/bg.jpg);
         background-repeat: no-repeat;
         background-size:cover;
         background-attachment: fixed;
+        overflow-x: hidden;
     }
     .caixa1 {
         margin-top: 100px;
